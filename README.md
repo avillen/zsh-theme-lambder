@@ -1,5 +1,13 @@
 ## zsh-theme-lambder
 
+Theme for oh-my-zsh.
+
+
+### Screenshots
+
+![Alt text](/screenshots/screenshot.png?raw=true "Lambder theme")
+
+
 ### Install
 
 Add the file in the `.oh-my-zsh/themes/` dir:
