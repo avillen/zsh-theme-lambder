@@ -16,7 +16,7 @@ git_wip_alert() {
 
 git_stash_count() {
   if [ -d .git ]; then
-    echo "%{$fg[yellow]%}[$(git stash list | wc -l)]%{$reset_color%}"
+    echo "%{$fg[yellow]%}[$(git stash list | wc -l | sed 's/ //g')]%{$reset_color%}"
   else
     echo ""
   fi;
